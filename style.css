@@ -3,77 +3,120 @@
 html {
     font-size:100%;
     box-sizing: border-box;
+    height:100%;
+    
 }
 
 body {
     margin: 0 auto;
     padding: 0;
-    display: flex;
     font-family: 'Kumbh Sans', sans-serif;
-}
-
-.container {
-    min-width: 300px;
-    padding:5px;
-    border: 1px solid red;
-    
-}
-
-.container div {
-    margin: 2px;
+    background-color: #F2F2F2;
 }
 
 
 .bio-container {
     border: 1px solid green;
+    margin-bottom:25px;
     
 }
 
 .intro {
-    border: 1px solid gold;
+    display:flex;
+    height:500px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/nathan-da-silva-k-rKfqSm4L4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+   
 }
 
+.intro-text {
+    position:absolute;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 4em;
+    color:white;  
+}
+
+h2 {
+    font-size:25px;
+    color:#ff4556;
+}
+
+.tint-overlay {
+    height:100%;
+    width:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: black;
+    opacity: 0.6;
+
+}
 .bio {
     border: 1px solid orange;
+    margin: 20px;
+    padding:10px;
+}
+
+.projects-container {
+    display:flex;
+    border: 1px solid blue;
+    padding:10px;   
+    flex-direction: column;
+    text-align: center;
 }
 
 .projects {
-    border: 1px solid blue;
+    display:flex;
+    align-items: center;
+    flex-direction: column;    
+
 }
 
 .project {
-    border: 1px solid purple
+    border: 1px solid purple;
+    margin:10px;
+    padding:10px;
+    width:300px;
+    align-items: center;
+
 }
 
-
+.contact {
+    background-color: lightgray;
+    width:100%;
+    text-align: center;
+}
 
 /* responsive for tablets */
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:688px) {
     body {
-        max-width: 600px;
+        margin: 0 auto;
     }
 
-    .container {
-        max-width: 600px;
-    }
+    
 }
 
 /* responsive got desktop */
 @media only screen and (min-width: 1400px) {
     html {
         height:100%;
+        margin: 0 auto;
     }
 
     body {
-        max-width:1440px;
     }
 
-   
     .bio-container {
-        display:flex;
-        flex:space-between;
-
+        width:100%;
     }
     .intro {
         flex:1
@@ -83,8 +126,9 @@ body {
     }
 
     .projects {
-        display:flex;
-        justify-content:space-between;
+        display:flex;   
+        flex-direction: row;
+        justify-content:space-evenly;
 
     }
 
