@@ -56,6 +56,7 @@ h2 {
 .red {
     color:#ff4556
 }
+
 .tint-overlay {
     height:100%;
     width:100%;
@@ -65,9 +66,9 @@ h2 {
     opacity: 0.6;
 
 }
+
 .bio {
-    margin: 20px;
-    border: 3px solid #ff4556;
+    margin: 20px 20px;
     text-align:center;
     padding:20px;
 }
@@ -90,6 +91,7 @@ h2 {
 i {
     color:white;
     font-size: 4em;
+    padding:15px;
 }
 
 .projects {
@@ -115,6 +117,16 @@ i {
     text-align: center;
 }
 
+.border-gradient {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+  }
+
+.border-gradient-red {
+    border-image-source: linear-gradient(to left, #FFB8BE, #ff4556);
+  }
+
 /* responsive for tablets */
 
 @media only screen and (min-width:688px) {
@@ -126,15 +138,20 @@ i {
 }
 
 /* responsive got desktop */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1312px) {
     html {
         height:100%;
         margin: 0 auto;
     }
 
     body {
+
     }
 
+    .bio {
+        max-width:1200px;
+        margin: 20px auto;
+    }
     .bio-container {
         width:100%;
     }
@@ -149,7 +166,9 @@ i {
     .projects {
         display:flex;   
         flex-direction: row;
-        justify-content:space-evenly;
+        justify-content:space-between;
+        margin: 20px auto;
+        max-width: 1200px;
 
     }
 
