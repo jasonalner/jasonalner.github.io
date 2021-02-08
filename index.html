@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Jason Alner</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/58bf0eb961.js" crossorigin="anonymous"></script>
@@ -15,8 +15,12 @@
     </head>
     <body>
 
-        <header>
-
+        <header class="header">
+            <nav class="navbar">
+                <a class="nav-link" href="#bio"> About</a>
+                <a class="nav-link" href="#projects-container"> Projects</a>
+                <a class="nav-link" href="#contact"> Contact</a>
+            </nav>
         </header>
 
         <div class="wrapper ">
@@ -28,7 +32,7 @@
                             <h2 class="red">A Junior Web Developer based in Brackley<span class="white">.</span></h2>
                         </div>  
                     </div>
-                    <div class="bio border-gradient border-gradient-red">
+                    <div id="bio" class="bio border-gradient border-gradient-red">
                         <h2>About me</h2>
                         <p>After a number of years working as a Recruiter for a global media company in London, I decided to embark on a career change to become a web developer.
                             Since the summer of 2020, I have been learning HTML, CSS and Javascript with the mission of landing my first developer job in 2021.
@@ -47,35 +51,29 @@
 
                 </div>
             
-                <div class="projects-container">
+                <div id ="projects-container" class="projects-container">
                     <h2>Projects</h2>
-                    <div class="projects">
-                        <div class="project">
-                            <div class="example"></div>
-                            <div class="project-title">Project One</div>
-                            <div class="description"> This is the first project
-
-                            </div>
+                    <div id="projects" class="projects">
+                        <div class="project border-gradient border-gradient-red">
+                            <img class="project-img" src="images/project1.png">
+                            <h4 class="project-title">Project One</h4>
+                            <p class="description"> This is the first project.</p>
                         </div>
-                        <div class="project">
-                            <div class="example"></div>
-                            <div class="project-title">Project Two</div>
-                            <div class="description">This is the second project
-
-                            </div>
+                        <div class="project border-gradient border-gradient-red">
+                            <img class="project-img" src="images/project2.png">
+                            <h4 class="project-title">Project Two</h4>
+                            <p class="description">This is the second project.</p>
                         </div>
-                        <div class="project">
-                            <div class="example"></div>
-                            <div class="project-title">Project Three</div>
-                            <div class="description">This is the third project
-                            </div>
+                        <div class="project border-gradient border-gradient-red">
+                            <h4 class="project-title">Project Three</h4>
+                            <p class="description">This is the third project.</p>
                         </div>
                      </div>
 
                 </div>
 
             </div>
-                <div class="contact">
+                <div id="contact" class="contact">
                     <h2>Contact me</h2>
                     <div class="icons">
                             <p>email</p>
