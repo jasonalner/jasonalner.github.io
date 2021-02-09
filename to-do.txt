@@ -1,0 +1,14 @@
+Fix width of header and contact bar. It has something to do with the fixed position of both sections
+
+Project section. JS carousel or flexbox?
+Project pages
+    what to contain on each
+    title
+    short description of what it is
+    link to live site
+    link to code and github
+
+Contact
+    spacing
+    change icons to white
+    hover effect to red.
