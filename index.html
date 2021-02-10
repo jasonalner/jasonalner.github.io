@@ -52,12 +52,12 @@
                     </div>
                 </div>
             
-                <div id ="projects-container" class="projects-container full-width">
+                <div id ="projects-container" class="projects-container">
                     <h2>Projects</h2>
-                    <div id="projects" class="projects wrap">
+                    <div id="projects" class="projects">
                         <div class="project border-gradient border-gradient-red">
                             <img class="project-img" src="images/project1.png">
-                            <div class="project-overlay hidden">
+                            <div id="project1" class="project-overlay " onmouseover="showText()">
                                 <h4 class="project-title">Project One</h4>
                                 <p class="description"> This is the first project.</p>
                             </div>
@@ -65,19 +65,21 @@
                         
                         <div class="project border-gradient border-gradient-red">
                             <img class="project-img" src="images/project2.png">
-                            <h4 class="project-title">Project Two</h4>
-                            <p class="description">This is the second project.</p>
-                        </div>
+                            <div class="project-overlay hidden">
+                                <h4 class="project-title">Project Two</h4>
+                                <p class="description"> This is the second project.</p>
+                            </div>                        </div>
                         <div class="project border-gradient border-gradient-red">
-                            <h4 class="project-title">Project Three</h4>
-                            <p class="description">This is the third project.</p>
-                        </div>
+                            <div class="project-overlay hidden">
+                                <h4 class="project-title">Project Three</h4>
+                                <p class="description"> This is the Third project.</p>
+                            </div>                        </div>
                      </div>
 
                 </div>
 
             </div>
-                <div id="contact" class="contact full-width">
+                <div id="contact" class="contact">
                     <div class="wrap">
                         <h2>Contact me</h2>
                         <p>If you're interested in working together or finding out more, you can reach me at: </p>
@@ -100,6 +102,6 @@
         </footer>
     
 
-        <script src="" async defer></script>
+        <script src="script.js"></script>
     </body>
 </html>

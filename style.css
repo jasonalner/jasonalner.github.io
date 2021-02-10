@@ -2,9 +2,10 @@
 
 
 html {
+    margin:0 auto;
     font-size:100%;
     box-sizing: border-box;
-    height:100%;
+    height:100%; 
     scroll-behavior: smooth;
     overflow-x: hidden;
     
@@ -12,7 +13,7 @@ html {
 
 body {
     margin: 0 auto;
-    padding: 0;
+    padding: 0px;
     font-family: 'Kumbh Sans', sans-serif;
     background-color: #F2F2F2;
     font-size: 1.1em;
@@ -21,12 +22,12 @@ body {
 
 .full-width {
     width:100%;
-    margin:0 auto;
+    margin: 0 auto;
     
 }
 
 .wrap {
-    width:100%;
+    border:1px yellow solid;
 }
 
 .flex {
@@ -70,6 +71,7 @@ a, a:visited, a:hover, a:active {
 
 #bio, #skills, #projects-container, #contact {
     scroll-margin-top: 50px;
+    margin:20px;
   }
 
 .intro {
@@ -89,7 +91,6 @@ a, a:visited, a:hover, a:active {
     position:absolute;
     text-align: center;
     margin: 0 auto;
-    padding:10px;
 }
 
 h1 {
@@ -118,17 +119,8 @@ h2 {
 }
 
 .bio {
-    margin: 20px 20px;
     text-align:center;
     padding:20px;
-}
-
-.projects-container {
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    padding:10px;
-    justify-content: center;
 }
 
 .skills {
@@ -141,10 +133,19 @@ h2 {
 
 .skills i {
     color:white;
-    font-size: 5em;
+    font-size: 4em;
     margin:30px;
     filter: drop-shadow(5px 15px 4px #87242D);
 
+}
+/* Project Section*/
+
+.projects-container {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding:10px;
+    justify-content: center;
 }
 
 .projects {
@@ -152,7 +153,7 @@ h2 {
     align-items: center;
     flex-direction: column;    
     justify-content: center;
-
+    text-align: left;
 }
 
 .project {
@@ -162,10 +163,7 @@ h2 {
     width:300px;
     height:300px;
     align-items: center;
-    
 }
-
-
 
 .project-img {
 
@@ -173,48 +171,52 @@ h2 {
     height:100%;
     object-fit: contain;
     background:#F2F2F2;
-    opacity: 0.6;
-   
 }
 
 .project-img :hover {
     background: none;
-    opacity:1;    
-}
-
-.contact {
-    margin: 0 auto;
-    background-color: lightgray;
-    width:100vw;
-    text-align: center;
-    padding:20px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-
 }
 
 .project-overlay {
+    
     position:absolute;
     top:0px;
+    padding:10px;
+    background-color: rgba(218, 218, 218, 0.9);
+    object-fit: fill;
+    
 }
 
-/*.hidden {
+.project-overlay .hidden {
     display:none;
 }
 
-*/
+.hidden {
+    display:none;
+}
+
+
+
+/* Contact section*/
+
+.contact {
+    background-color: lightgray;
+    text-align: center;
+    padding:40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .icons {
     display:flex;
     justify-content: center;
     flex-direction: row;
     color:#FFFFFF;
-
 }
 
 .icons i {
-    font-size:4em;
+    font-size:3em;
     padding:0.5em;
 }
 
