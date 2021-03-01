@@ -8,7 +8,6 @@ html {
     height:100%; 
     scroll-behavior: smooth;
     overflow-x: hidden;
-    
 }
 
 body {
@@ -23,7 +22,6 @@ body {
 .full-width {
     width:100%;
     margin: 0 auto;
-    
 }
 
 .flex {
@@ -80,7 +78,6 @@ a, a:visited, a:hover, a:active {
     background-size: cover;
     background-attachment: fixed top;
     background-position: center;
-   
 }
 
 .intro-text {
@@ -126,7 +123,6 @@ h2 {
     text-align: center;
     padding-top: 3em;
     padding-bottom: 3em;
-
 }
 
 .skills i {
@@ -234,8 +230,9 @@ height: 100%;
 
 .button {
     display:flex;
+    text-decoration: none;
     margin: 40px auto;
-    padding:2px 10px;
+    padding: 2px 10px;
     width:max-content;
     height: max-content;
     font-family: 'Kumbh Sans', sans-serif;
@@ -243,7 +240,7 @@ height: 100%;
     background-color: #ff4556;
     text-align: center;
     font-weight: 500;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
@@ -252,6 +249,7 @@ height: 100%;
     color:#FFFFFF;
     cursor: pointer;
     transition: 0.5s;
+    text-decoration: none;
 }
 
 /* Contact section*/
@@ -348,18 +346,15 @@ height: 100%;
         display:flex;   
         flex-direction: row;
         justify-content:center;
+        flex-wrap: wrap;
 
     }
 
     .project {
-        min-height: 300px;
+        min-height: 400px;
+        min-width: 400px;
         max-width: 400px;
         max-height: 400px;
+        
     }
-
-    .button {
-        height: 40px;
-        width:80px;
-    }
-
 }
