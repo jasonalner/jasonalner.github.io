@@ -198,55 +198,60 @@ h2 {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-  }
+}
 
-  .project-title {
-      font-weight: 700;
-  }
+.project-title {
+    font-weight: 700;
+}
 
-  .project:hover .project-overlay {
-    height: 100%;
-  }
+.project:hover .project-overlay {
+height: 100%;
+}
 
-    .project-overlay .hidden {
-        display:none;
-    }
+.project-overlay .hidden {
+    display:none;
+}
 
-    .project-links {
-        display: flex;
-        justify-content: space-around;
-    }
-     
-    .project-links a {
-        background-color: #FFB8BE;
-        padding: 3px;
-        text-decoration: none;
-        border-radius: 5px;
+.project-links {
+    display: flex;
+    justify-content: space-around;
+}
+    
+.project-links a {
+    background-color: #ff4556;
+    padding: 3px;
+    text-decoration: none;
+    border-radius: 5px;
+}
 
-    }
+.project-links a:hover {
+    color:#FFFFFF;
+}
 
-    .hidden {
-        display:none;
-    }
+.hidden {
+    display:none;
+}
 
-    a .button {
-        width:120px;
-        height:25px;
-        font-family: 'Kumbh Sans', sans-serif;
-        text-align: center;
-        font-weight: 500;
-        background-color: #ff4556;
-        border-radius: 100px;
-        color:#FFFFFF;
-        border:#FFFFFF;
-        margin-bottom: 50px;
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    }
+.button {
+    display:flex;
+    margin: 40px auto;
+    padding:2px 10px;
+    width:max-content;
+    height: max-content;
+    font-family: 'Kumbh Sans', sans-serif;
+    align-items: center;
+    background-color: #ff4556;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
 
 .button:focus, .button:hover {
-    background-image: linear-gradient( to right,  #ff4556, #FFB8BE);
+    background-color: #ff4556;
+    color:#FFFFFF;
     cursor: pointer;
-    transition: 3s;
+    transition: 0.5s;
 
 }
 
