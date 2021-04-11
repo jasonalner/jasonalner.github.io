@@ -6,7 +6,7 @@ const temp = document.querySelector('.temp')
 const errorMsg = document.getElementById('errorMsg')
 
 button.addEventListener('click', function() {
-	fetch('http://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&units=metric&appid=f68daa637db78a934561270ec0eff1fc')
+	fetch('https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&units=metric&appid=f68daa637db78a934561270ec0eff1fc')
 	.then(response => response.json())
 	.then(data => {
 		let nameValue = data['name']
