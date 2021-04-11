@@ -257,6 +257,10 @@ h2 {
     text-decoration: none;
 }
 
+
+#project-title {
+    margin-top: 40px;
+}
 /* Contact section*/
 
 .contact {

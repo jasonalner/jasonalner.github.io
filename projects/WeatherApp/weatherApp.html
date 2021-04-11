@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/58bf0eb961.js" crossorigin="anonymous"> </script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <p class="title">WeatherFront <i class="fas fa-cloud-sun"></i></p>
+    </header>
+    <div class="input">
+      <input type="text" class="inputValue" placeholder="Enter City Name">
+      <input type="submit" value="Go" class="button">
+    </div>
+    <div class="error">
+      <p id="errorMsg"></p>
+    </div>
+    <div class="results">
+      <h1 class="name"></h1>
+      <div class="weather-results">
+        <p class="desc"></p>
+        <p class="temp"></p>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
