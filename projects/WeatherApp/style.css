@@ -122,11 +122,11 @@ input:focus {
 
     body { 
        max-width:500px; 
+       margin: 0;
     }
 
     .container {
-        width:100%;
-        margin: 20px;
+        width:90%;
     }
 
     .input {
@@ -137,7 +137,7 @@ input:focus {
     
     .results {
         width: 100%;
-        margin: 5px 5px 20px 5px;
+        margin-bottom: 20px;
         font-size: 12px;
     }
 }
