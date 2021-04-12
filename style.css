@@ -311,6 +311,16 @@ h2 {
         font-size:3em;
         padding:0.2em;
     }
+
+    .project-text p {
+        font-size: 18px;
+    }
+    
+    .project-text h3 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
 }
 
 /* responsive for desktop */
@@ -366,16 +376,16 @@ h2 {
     }
 
     .project-text p {
-        font-size: 20px;
+        font-size: 22px;
     }
    
 
     .project-text h3 {
-        font-size: 18px;
+        font-size: 26px;
         font-weight: 700;
     }
     
     .project-links a {
-        font-size:16px;
+        font-size:18px;
     }   
 }  
