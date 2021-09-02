@@ -1,8 +1,10 @@
 # jasonalner
 Hello!
 I'm Jason
-A Web Developer 
+A Junior Web Developer based in Brackley, Northants.
 
-I'm currently learning HTML, CSS and JavaScript
+I'm currently working as a Junior Web Developer, using HTML, CSS and JS whilst studying and coding personal projects using React.js.
 
-You can reach me at jason.alner@gmail.com
+If you're interested in a chat, or finding out more you can reach me at jason.alner@gmail.com
+
+:)
